@@ -1,3 +1,10 @@
-baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "UniversIT"
+theme = 'typo'
+[params]
+themeColor = "theme-base-0b"
+description = 'An online university and campus for IT, aimed at fostering knowledge, skill, and the social wellbeing of its members.'
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
