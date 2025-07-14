@@ -1,11 +1,5 @@
-[campus](campus) /  [courses](courses) /
-
 What
 ====
-
-**UniversIT is an online university and campus for IT, aimed
-at fostering knowledge, skill, and the social wellbeing of
-its members.**
 
 A university is usually providing a curriculum, via a
 cursus of courses one can attend for a fee, in order to

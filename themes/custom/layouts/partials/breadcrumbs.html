@@ -1,0 +1,14 @@
+<nav>Navigation: <a href="{{ relURL "" }}">Home</a>
+{{ range .Site.Pages }}
+   {{ range .Pages }}{{ $path := dict "path" .Path}}
+      • <a href="{{ .RelRef $path }}">{{
+         if .Title}}{{
+	    .Title}}{{
+	 else}}{{
+            with .File}}{{
+              .BaseFileName}}{{
+            end}}{{
+	 end}}/</a>
+   {{ end }}
+{{ end }}
+</nav>

@@ -1,9 +1,9 @@
 languageCode = 'en-us'
 title = "UniversIT"
-theme = 'typo'
+theme = 'custom'
 [params]
 themeColor = "theme-base-0b"
-description = 'An online university and campus for IT, aimed at fostering knowledge, skill, and the social wellbeing of its members.'
+description = 'An online university and campus for IT, aimed at fostering knowledge, skill, and the social wellbeing of its members in a lifelong manner.'
 [params.breadcrumbs]
 enabled = true
 showCurrentPage = true
